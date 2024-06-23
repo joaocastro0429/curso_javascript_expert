@@ -1,0 +1,3 @@
+O arquivo deve ter id , name , profissão e idade campos de idade
+O arquivo não deveria estar vazio
+O arquivo não deveria demorar mais do que 4 linhas incluindo cabeçalhos

@@ -1,0 +1,18 @@
+1 nvm install 20 -> insala a versao 18 
+2 nvm lts - instala a versão long-term support (versao recomentado)
+3 nvm list 
+4 nvm alias default 18 -> define a versão padrão do Node.js para ser a 18
+5 criar .nvmrc - com a versão desejada e nvm use para a 18 
+6 criar .nvmrc - com a versão desajada e nvm use para ativar aquela versão
+
+node -v > .nvmrc -> salva a versão apropriada para aquele projeto
+
+
+obs: Para colocar um versão default ou padrao utilizamos o seguinte comando : 
+
+nvm alias default 18 
+
+para usar a versao especifica podemos utilizar esse comando no arquivo .nvmrc : 
+
+nvm use , com isso vai procurar a versão que estiver nesse arquivo  e com isso ativa aquela versão 
+
